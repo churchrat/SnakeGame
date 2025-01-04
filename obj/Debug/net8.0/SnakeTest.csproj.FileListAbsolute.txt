@@ -1,0 +1,14 @@
+D:\homeworke\SnakeTest\bin\Debug\net8.0\SnakeTest.exe
+D:\homeworke\SnakeTest\bin\Debug\net8.0\SnakeTest.deps.json
+D:\homeworke\SnakeTest\bin\Debug\net8.0\SnakeTest.runtimeconfig.json
+D:\homeworke\SnakeTest\bin\Debug\net8.0\SnakeTest.dll
+D:\homeworke\SnakeTest\bin\Debug\net8.0\SnakeTest.pdb
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.AssemblyInfoInputs.cache
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.AssemblyInfo.cs
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.csproj.CoreCompileInputs.cache
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.dll
+D:\homeworke\SnakeTest\obj\Debug\net8.0\refint\SnakeTest.dll
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.pdb
+D:\homeworke\SnakeTest\obj\Debug\net8.0\SnakeTest.genruntimeconfig.cache
+D:\homeworke\SnakeTest\obj\Debug\net8.0\ref\SnakeTest.dll
