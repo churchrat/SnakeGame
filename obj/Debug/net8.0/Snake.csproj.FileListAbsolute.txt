@@ -26,3 +26,4 @@ D:\homeworke\Snake\obj\Debug\net8.0\refint\Snake.dll
 D:\homeworke\Snake\obj\Debug\net8.0\Snake.pdb
 D:\homeworke\Snake\obj\Debug\net8.0\Snake.genruntimeconfig.cache
 D:\homeworke\Snake\obj\Debug\net8.0\ref\Snake.dll
+D:\homeworke\Snake\obj\Debug\net8.0\Snake.sourcelink.json

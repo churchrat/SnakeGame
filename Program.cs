@@ -35,6 +35,18 @@
                         case ConsoleKey.D://right
                             snake.ChangeDirection(1, 0);
                             break;
+                        case ConsoleKey.UpArrow://up
+                            snake.ChangeDirection(0, -1);
+                            break;
+                        case ConsoleKey.DownArrow://down
+                            snake.ChangeDirection(0, 1);
+                            break;
+                        case ConsoleKey.LeftArrow://left
+                            snake.ChangeDirection(-1, 0);
+                            break;
+                        case ConsoleKey.RightArrow://right
+                            snake.ChangeDirection(1, 0);
+                            break;
                     }
                 }
                 snake.Move();
@@ -67,7 +79,7 @@
                 gs.DrawBorders();
                 gs.Render();
                 gs.Clear();
-                Thread.Sleep(snake.Speed);
+                Thread.Sleep(Snake.Speed);
             }
             Console.Clear();
             Console.WriteLine($"GameOver! Score: {Snake.Score}");
@@ -133,6 +145,9 @@
                     }
                     Console.WriteLine();
                 }
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine($"Score: {Snake.Score}    Miliseconds/Kilometer:{Snake.Speed}");
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
             }
         }
         class Food
@@ -158,7 +173,7 @@
         class Snake
         {
             static public int Score;
-            public int Speed = 250;
+            static public int Speed = 250;
             public LinkedList<int> bodyX = new LinkedList<int>();
             public LinkedList<int> bodyY = new LinkedList<int>();
             private int directionX = 1;
